@@ -4,8 +4,10 @@ import pathlib
 
 setup(
     name='pyimgaug3d',
-    version='0.2',
+    version='0.3',
     description='Python image augmentation',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     url='',
     author='Siyu Liu',
     author_email='siyu.liu2@uqconnect.edu.au',
