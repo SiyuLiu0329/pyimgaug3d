@@ -2,12 +2,12 @@
 A 3D *GPU* augmentation library.
 
 # Installation
-'''
+```
 pip install pyimgaug3d
-'''
+```
 
 # Example Usage
-'''
+```
 from pyimgaug3d.augmentation import GridWarp
 from pyimgaug3d.augmenters import ImageSegmentationAugmenter
 
@@ -19,4 +19,4 @@ aug = ImageSegmentationAugmenter()
 aug.add_augmentation(GridWarp(grid=(4, 5, 5), max_shift=10))
 
 warpped_img, warpped_seg = aug([img, seg])
-'''
+```
