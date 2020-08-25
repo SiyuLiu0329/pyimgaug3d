@@ -9,3 +9,8 @@ class ImageSegmentationAugmenter(BaseAugmenter):
         assert len(imgs) == 2, "only pass in [img, seg]"
         x, y = super().__call__(imgs)
         return x, classical_round_tf(y)
+
+class ImageAugmenter(BaseAugmenter):
+    def __call__(self, img):
+        x = super().__call__([img])
+        return x
