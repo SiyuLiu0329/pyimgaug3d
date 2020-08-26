@@ -13,4 +13,4 @@ class ImageSegmentationAugmenter(BaseAugmenter):
 class ImageAugmenter(BaseAugmenter):
     def __call__(self, img):
         x = super().__call__([img])
-        return x
+        return x[0]
