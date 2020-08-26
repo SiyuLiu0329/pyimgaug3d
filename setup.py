@@ -4,7 +4,7 @@ import pathlib
 
 setup(
     name='pyimgaug3d',
-    version='0.32',
+    version='0.33',
     description='Python image augmentation',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -17,7 +17,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     packages=find_packages(),
-    python_requires='>=3.7, <4',
+    python_requires='>=3.5, <4',
     install_requires=['numpy<1.19.0', 'tensorflow>2.0.0', 'tensorflow-addons', 'nibabel']
 
 )
