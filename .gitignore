@@ -3,3 +3,5 @@ dist
 *.nii.gz
 tmp
 *.pyc
+.DS_Store
+__pycache__
