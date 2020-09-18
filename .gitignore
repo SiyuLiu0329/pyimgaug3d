@@ -2,3 +2,4 @@
 dist
 *.nii.gz
 tmp
+*.pyc
