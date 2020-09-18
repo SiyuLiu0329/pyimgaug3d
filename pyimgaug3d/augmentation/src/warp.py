@@ -106,6 +106,7 @@ class GridWarp(BaseAugmentation):
                 res = self._warp_channel(img, params)
             else:
                 res = []
+                # this need to change, too damn slow # need to do nn interpolation
                 for j in range(c):
                     res.append(self._warp_channel(img[:, :, :, j: j+1], params))
                 res = tf.concat(res, axis=3)
