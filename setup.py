@@ -4,7 +4,7 @@ import pathlib
 
 setup(
     name='pyimgaug3d',
-    version='0.42',
+    version='0.43',
     description='Python image augmentation',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
